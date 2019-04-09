@@ -1,0 +1,42 @@
+﻿body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+.TTTForm {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.TTTForm fieldset {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.TTTGame caption {
+    font-size: 46px;
+    font-style: oblique;
+}
+
+.TTTGame table {
+    flex-basis: 450px 450px;
+    border: 2px solid black;
+   
+}
+
+.ImgIcon {
+    display: none;
+}
+
+.TTTGame table tr td canvas {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    
+}

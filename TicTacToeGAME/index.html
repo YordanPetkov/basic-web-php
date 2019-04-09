@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="TTTMenu">
+        <h1>Play Tic Tac Toe</h1>
+        <form class="TTTForm" name="TTTGameForm"  onsubmit="SetName()">
+            <fieldset>
+                <label for="Player1Name">Enter Player One Name :</label>
+                <input type="text" id="Player1Name" name="nickname1" placeholder="Nickname" required
+                       pattern=".{4,}" title="Name must have at least 5 characters."/>
+            </fieldset>
+            <fieldset>
+                <label for="Player2Name">Enter Player Two name :</label>
+                <input type="text" id="Player2Name" name="nickname2" placeholder="Nickname" required
+                       pattern=".{4,}" title="Name must have at least 5 characters." />
+            </fieldset>
+            <fieldset>
+                <label for="typeOne">One Player</label>
+                <input type="radio" id="typeOne" name="type" value="OnePlayer" />
+            </fieldset>
+            <fieldset>
+                <label for="typeTwo">Two Players</label>
+                <input type="radio" id="typeTwo" name="type" value="TwoPlayer" />
+            </fieldset>
+            <fieldset>
+                <label for="typeZero">No Players</label>
+                <input type="radio" id="typeZero" name="type" value="ZeroPlayer" />
+            </fieldset>
+            <fieldset>
+                <button type="submit" value="Play">Play</button>
+            </fieldset>
+                
+        </form>
+        
+    </div>
+    <div class="TTTGame">
+        <table>
+            <caption>Tic Tac Toe</caption>
+            <tbody>
+                <tr>
+                    <td><canvas id="Box1_1" onclick="Play(1, 1)"></canvas></td>
+                    <td><canvas id="Box1_2" onclick="Play(1, 2)"></canvas></td>
+                    <td><canvas id="Box1_3" onclick="Play(1, 3)"></canvas></td>
+                </tr>
+                <tr>
+                    <td><canvas id="Box2_1" onclick="Play(2, 1)"></canvas></td>
+                    <td><canvas id="Box2_2" onclick="Play(2, 2)"></canvas></td>
+                    <td><canvas id="Box2_3" onclick="Play(2, 3)"></canvas></td>
+                </tr>
+                <tr>
+                    <td><canvas id="Box3_1" onclick="Play(3, 1)"></canvas></td>
+                    <td><canvas id="Box3_2" onclick="Play(3, 2)"></canvas></td>
+                    <td><canvas id="Box3_3" onclick="Play(3, 3)"></canvas></td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td id="MyGameMessage"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <img class="ImgIcon" id="X" src="img/X.jpg" alt="X"/>
+    <img class="ImgIcon" id="O" src="img/O.png" alt="O" />
+    <script src="js/app.js"></script>
+</body>
+</html>
