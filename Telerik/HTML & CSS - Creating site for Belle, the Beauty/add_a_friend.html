@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel = "stylesheet" href = "style.css">
+	<meta charset = "UTF-8">
+	</head>
+	<body>
+		<nav>
+			<ul class = "Navigation">
+				<li class = "Other_pages"><a href = "profile.html">Profile</a></li>
+				<li class = "Other_pages"><a href = "friends.html">Friends</a></li>
+				<li class = "Page_Link"><a href = "add_a_friend.html">Add a friend</a></li>
+				<li class = "Other_pages"><a href = "trailers.html">Trailers</a></li>
+				<li class = "Other_pages">
+					<a href = "#">Houses</a>
+					<ul>
+						<li class = "Other_pages_Houses"><a href="#">Home</a></li>
+						<li class = "Other_pages_Houses"><a href="#">The Beast's castle</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+		</nav>
+	<h1 class = "HeaderOfPage">Add a new friend</h1>
+	
+	<form class = "Add_a_friend_form">
+		<label for="Add_a_friend_Form_name">Name</label>
+		<input type = "text" name = "friend_name" id = "Add_a_friend_Form_name">
+		</br>
+		<label for="Add_a_friend_Form_occupation">Occupation</label>
+		<input type = "text" name = "friend_occupation" id = "Add_a_friend_Form_occupation">
+		<br/>
+		<label>Male
+			<input type = "radio" name="gender" value = "Male">
+		</label>
+		<label>Female
+			<input type = "radio" name="gender" value = "Female">
+		</label>
+		<br/>
+		<button type="reset">Reset</button>
+		<button id = "Save_submit" type="submit">Save</button>
+	</form>
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src = "scripts.js"></script>
+	</body>
+</html>

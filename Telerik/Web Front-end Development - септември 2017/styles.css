@@ -1,0 +1,24 @@
+﻿body
+{
+    background-color : slategray;
+}
+
+.PageHeader{
+    text-align: center;
+}
+
+.PageForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.PageForm .Form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.PageForm .List {
+    list-style-type: none;
+}

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="Script1.js"></script>
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1 class="PageHeader">Участвай в нашата анкета.</h1>
+    </header>
+    
+        <div class="PageForm">
+            <form class="Form">
+                <label for="Firstname">Собствено име</label>
+                <input type="text" id="Firstname" name="Firstname" />
+                <label for="Surname">Фамилия</label>
+                <input type="text" id="Surname" name="Surname" />
+                <label for="Age">Години</label>
+                <input type="number" id="Age" name="Age" />
+                <label for="Male">Мъж</label>
+                <input type="radio" id="Male" value="Male" name="Gender" />
+                <label for="Female">Жена</label>
+                <input type="radio" id="Female" value="Female" name="Gender" />
+                <label for="Lection">Лекция</label>
+                <select name="Lection" id="Lection">
+                    <option value="Bulgarian">Български език</option>
+                    <option value="Matematica">Математика</option>
+                    <option value="English">Английски език</option>
+                    <option value="Science">Химия</option>
+                    <option value="Physic">Физика</option>
+                </select>
+                <button type="submit" value="Предай" onclick="Query()">Предай</button>
+            </form>
+
+            <ul id="PageLastQuery" class="List">
+                <li id="ListFirstname"></li>
+                <li id="ListSurname"></li>
+                <li id="ListAge"></li>
+                <li id="ListGender"></li>
+                <li id="ListLecture"></li>
+            </ul>
+        </div>
+    
+</body>
+
+</html>

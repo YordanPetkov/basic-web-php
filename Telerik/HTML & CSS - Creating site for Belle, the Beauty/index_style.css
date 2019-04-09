@@ -1,0 +1,123 @@
+body {
+	background-color : #e696ff;
+	
+}
+
+a {
+	text-decoration : none;
+	color : white;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+.HeaderOfPage {
+	color : #2e003d;
+	text-align : center;
+	margin-top : 50px;
+}
+
+.Navigation {
+	text-align : center;
+	font-size : 16px;
+	border-bottom : 1px solid #640084;
+}
+
+.Navigation li {
+	border-left : 1px solid;
+	display : inline-block;
+	
+}
+
+.Navigation li li {
+	display : block;
+	text-align : left;
+	border : none;
+}
+
+.Navigation li ul {
+	display : none;
+}
+
+.Navigation li:hover ul{
+	display: block;
+	position: absolute;
+}
+
+.Navigation li a {
+	padding : 5px 15px;
+	display : inline-block;
+}
+.Navigation li:first-of-type {
+	border-left: none;
+	
+}
+
+
+
+
+.Profile_HeaderOfProfileInfo {
+	color : #640084;
+	border-bottom : 1px solid #640084;
+}
+
+.Profile_Page {
+	float : center;
+}
+
+.Profile_Image_of_Belle {
+	display : inline-block;
+	width : 30%;
+}
+.Profile_Image_of_Belle img {
+	float: center;
+	max-width: 100%;
+}
+.Profile_Image_of_Belle p {
+	text-align: center;
+}
+.Profile_info {
+	display : inline-block;
+	width : 68%;
+}
+.Profile_Personal_info ul{
+	list-style-type : none;
+	margin: 0;
+}
+
+
+.Friends_List {
+	font-size : 18px;
+	width : 100%;
+	font-family : Verdana;
+	border-collapse : collapse;
+	text-align : center;
+}
+
+.Friends_List tr:nth-child(even) td, th{
+	background-color : #640084;
+	color : #e696ff;
+	border : 1px solid #e696ff;
+}
+
+.Friends_List tr:nth-child(odd) td, th{
+	background-color : #e696ff;
+	color : #640084;
+	border : 1px solid #640084;
+}
+
+.Friends_List th {
+	color : white;
+	
+}
+
+
+.Friends_List td , th{
+	
+	padding : 5px;
+}
+
+.Friends_List img {
+	width : 70px;
+}
+
