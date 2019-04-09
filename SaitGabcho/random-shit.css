@@ -1,0 +1,167 @@
+body{
+    background-color: red;
+    color: black;
+}
+
+.header-block{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    padding: 0;
+    margin: 0;
+
+    height: 186px;
+}
+
+.header-title{
+    margin-top: 33px;
+    width: 476px;
+    height: 94px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.play-btn{
+    cursor: pointer;
+    background: bisque;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-title {
+    color: black;
+    padding-left: 40%;
+    font-size: 150%;
+}
+
+.random-shit-lover{
+    color:black;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.login-form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 60px;
+    padding-left: 5%;
+}
+.form-input{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+
+.form-registration {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 15%;
+}
+
+.form-btns-login
+{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 15%;
+    margin-top: -15px;
+}
+
+.form-btns-upload{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 15%;
+    margin-left: 39px;
+}
+
+.user-data{
+    background: white;
+    color: black;
+    padding: 20px;
+}
+.form-nickname,
+.form-password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.form-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.reg-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.act-btn,
+.logout-act-btn {
+    cursor: pointer;
+    height: 50px;
+    background: darkslategrey;
+    border-radius: 10px;
+    width: 80px;
+    color: white;
+}
+
+
+.form-logout{
+    padding-left: 33%;
+}
+
+.page-view{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15%;
+}
+
+.video-page{
+    height: initial;
+    padding-top: 50px;
+    padding-right: 31%;
+    padding-left: 10%;
+    width: 37%;
+}
+
+.video{
+    text-align: center;
+}
+.video-page-text{
+    font-size: 150%;
+    text-align: center;
+}
+
+#video1{
+    margin-right: 300px;
+}
+footer{
+    font-size: 20px;
+    padding-left: 33%;
+    background: black;
+    color: white;
+}

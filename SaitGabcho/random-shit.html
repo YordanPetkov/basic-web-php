@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Shit</title>
+    <link rel="stylesheet" type="text/css" href="random-shit.css">
+    <script src="random-shit.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-block">
+        <img src="title.jpg" class="header-title" alt="Random Shit">
+        <button class="play-btn" onclick="LoggedIn()">Play</button>
+    </div>
+
+</header>
+
+<div class="page-view">
+    <div class="login-form">
+        <h3 id="form-title" class="form-title">Login</h3>
+
+        <form class="form-input" action="login.php" method="post" id="form-input">
+            <div class="form-nickname">
+                <label  for="nickname">Nickname:</label>
+                <input type="text" id="nickname" name="nickname" required>
+            </div>
+
+            <div class="form-password">
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="password" required>
+            </div>
+
+            <div class="form-btns">
+                <input type="submit" name="action" value="Login" class="act-btn">
+            </div>
+        </form>
+        <div class="form-btns">
+            <form class="form-registration" action="registration.php" method="post">
+                <input type="submit" name="action" value="Register" class="act-btn">
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <section class="video-page">
+        <p class="video-page-text" id="video-page-log-text"><strong>Click on the button to watch some RandomShit.</strong></p>
+    </section>
+
+
+
+</div>
+<footer>
+    We do NOT own video clips in the site &copy; G B
+</footer>
+
+
+</body>
+</html>
+

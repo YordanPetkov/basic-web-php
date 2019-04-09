@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" type="text/css" href="room-reservation.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">room reservation</h1>
+    </header>
+
+    <section class="basic-info">
+        <h3 class="basic-info-title">Basic Information</h3>
+        <div class="basic-info-data">
+            <p class="basic-info-description">This is information for our site.
+                Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screenshots below:
+                Create a Web page (HTML5 + CSS3 + images) that looks and behaves like the screenshots below:</p>
+            <form class="basic-info-search">
+                <label class="basic-info-search-title" for="info-search">Search</label>
+                <div class="basic-info-search-cta">
+                    <input type="search" id="info-search">
+                    <i class="fa fa-search"></i>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+    <section class="reservation">
+        <form class="personal-details">
+            <h2 class="personal-details-title">personal details</h2>
+            <input class="personal-details-values" type="text" placeholder="First Name">
+            <input class="personal-details-values" type="text" placeholder="Last Name">
+            <input class="personal-details-values" type="email" placeholder="Enter email">
+        </form>
+        <form class="request-reservation">
+            <h2 class="request-reservation-title">request a reservation</h2>
+            <div class="top-form">
+                <div class="top-form-select-room">
+                    <label for="select-room">Select a Room</label>
+                    <input list="rooms" id="select-room">
+                        <datalist id="rooms">
+                            <option value="Room 1">
+                            <option value="Room 2">
+                            <option value="Room 3">
+                        </datalist>
+                </div>
+
+                <div class="top-form-number-rooms">
+                    <label for="number-rooms">Number of Rooms</label>
+                    <input type="number" id="number-rooms">
+                </div>
+
+
+            </div>
+
+            <div class="bottom-form">
+                <div class="bottom-form-check-in">
+                    <label for="check-in">Check In</label>
+                    <input type="date" id="check-in">
+                </div>
+                <div class="bottom-form-check-out">
+                    <label for="check=out">Check Out</label>
+                    <input type="date" id="check=out">
+                </div>
+
+            </div>
+
+            <button class="reservation-btn" value="">Book Now</button>
+
+
+
+        </form>
+    </section>
+</body>
+</html>

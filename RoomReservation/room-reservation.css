@@ -1,0 +1,125 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    background-color: #e6e6e6;
+    padding: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 0;
+    color: #000;
+    font: 13px Tahoma, Helvetica, sans-serif;
+
+}
+
+.header-title{
+    text-transform: capitalize;
+    color: #7aa9f4;
+    font: 28px Tahoma, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 16px;
+    margin-top: 0;
+	text-align: center;
+}
+
+.basic-info-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.basic-info-title{
+    margin-bottom: 5px;
+}
+.basic-info-search{
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-info-search-title{
+    font-weight: bold;
+}
+
+.basic-info-description{
+    margin-top: 5px;
+    width: 70%;
+}
+
+.basic-info-search-cta{
+    position:relative;
+    width: 150px;
+}
+
+#info-search{
+    height:20px;
+    margin:0;
+    padding-right: 30px;
+    width: 100%;
+}
+
+i{
+    position:absolute;
+    top: 3px;
+    right: -8px;
+    width:24px;
+    height:24px;
+}
+
+.reservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.personal-details{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.personal-details-title {
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.personal-details-values{
+    margin: 5px;
+}
+.request-reservation{
+    width: 50%;
+}
+
+.request-reservation-title:first-letter{
+    text-transform: uppercase;
+}
+
+.top-form,
+.bottom-form{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.top-form-select-room,
+.top-form-number-rooms,
+.bottom-form-check-out,
+.bottom-form-check-in{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+    width: 50%;
+}
+
+.reservation-btn{
+    background: #7aa9f4;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-right: 4px;
+    margin-top: 40px;
+    padding-top: 4px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    border: none;
+
+}
+
